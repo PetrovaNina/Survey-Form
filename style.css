@@ -1,0 +1,45 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(151, 255, 250);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+main {
+    max-width: 800px;
+    min-height: 100%;
+    margin: 0 auto;
+    padding: 6vmin;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #fff;
+    background-color: rgb(54, 189, 166);
+}
+
+header {
+    text-align: center;
+}
+
+.form-item {
+    margin: 6vmin 0;
+}
+
+.form-item .wide {
+    width: 100%;
+}
+
+.input-textarea {
+    width: 100%;
+    resize: vertical;
+}
+
+.form-item label,
+.form-item p {
+    display: block;
+    margin: 2vmin 0;
+}
