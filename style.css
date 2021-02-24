@@ -23,6 +23,13 @@ main {
 
 header {
     text-align: center;
+    font-weight: bolder;
+    color: rgb(255, 252, 104);
+}
+
+header #title {
+    text-transform: uppercase;
+    margin-bottom: 0;
 }
 
 .form-item {
@@ -38,8 +45,35 @@ header {
     resize: vertical;
 }
 
-.form-item label,
-.form-item p {
+.form-item label, .form-item p {
     display: block;
     margin: 2vmin 0;
+}
+
+.form-item input, .input-textarea, select {
+    padding: 1em;
+    font-family: inherit;
+    font-size: 16px;
+    color: gray;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+}
+
+[type="checkbox"], [type="radio"] {
+    width: 1em;
+    height: 1em;
+    margin-right: 1em;
+}
+
+button {
+    padding: 0.5em;
+    font-family: inherit;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(54, 189, 166);
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(255, 252, 98);
 }
